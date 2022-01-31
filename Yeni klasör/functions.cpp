@@ -134,7 +134,7 @@ void printFolder(Folder folder) {
                 }
             }
             else {
-                j = folder.wordsStartPoints[k+1];
+                j = folder.wordsStartPoints[k+1]-1;
                 ++k;
             }
         }
